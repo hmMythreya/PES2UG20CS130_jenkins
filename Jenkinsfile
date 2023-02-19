@@ -9,7 +9,7 @@ stages{
  }
  stage('Test') {
  steps{
- sh './my_code'
+ sh './my_ccode'
  }
  }
  stage('Deploy') {
